@@ -25,7 +25,6 @@ function Character({ character }) {
                 <Modal.Header closeButton className='modalHeader'>
                     <Modal.Title>{character.name}</Modal.Title>
                     <div><img src={character.image} alt={character.name} /></div>
-                    {/* <Modal.Img variant="top" src={character.image} alt={character.name}></Modal.Img> */}
                 </Modal.Header>
                 <Modal.Body>
                     <div className="inlineTags"><h3 className='hModal'>Gender:</h3><p>{character.gender}</p></div>

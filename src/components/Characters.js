@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Character from './Character';
+import NavBar from './NavBar/NavBar';
 import './Components.css'
 
 function Characters() {
@@ -26,13 +27,15 @@ function Characters() {
         fetchCharacters();
     }, []);
 
+    
 
 
 
 
 
 
-  return (
+
+    return (
       <div className="flexCharacters">
           
         {characters &&
