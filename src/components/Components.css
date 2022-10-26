@@ -1,0 +1,29 @@
+.flexCharacters{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.mt-3{
+    margin: 10px;
+    background-color: #ffff66;
+
+}
+
+.inlineTags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hModal{
+    font-size: 18px;
+}
+
+.modalHeader{
+    display: flex;
+    flex-direction: column;
+}
